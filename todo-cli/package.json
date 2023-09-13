@@ -6,7 +6,6 @@
     "test": "jest",
     "prepare": "cd .. && husky install todo-cli/.husky"
   },
-  
   "author": "Vaishnavi",
   "license": "ISC",
   "description": "",
@@ -15,14 +14,13 @@
     "husky": "^8.0.3",
     "jest": "^29.6.4",
     "lint-staged": "^14.0.1",
-    "prettier": "^3.0.3"
+    "prettier": "^3.0.3",
+    "sequelize-cli": "^6.6.1"
   },
-  
   "lint-staged": {
     "*.js": [
       "eslint",
       "prettier --write ."
     ]
-    
   }
 }
